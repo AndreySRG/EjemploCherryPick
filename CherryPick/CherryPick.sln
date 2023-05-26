@@ -5,6 +5,18 @@ VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CherryPick", "CherryPick\CherryPick.csproj", "{8AE85224-0DE0-4655-AF12-238ACD390C26}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReporteFinanciero", "ReporteFinanciero", "{C9B594F2-09AD-4D1F-89FB-13AD00C9E2EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReporteMarcas", "ReporteMarcas", "{DF4CB9A0-6347-42A0-B9AD-93DEB815E855}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReporteViajesUsuario", "ReporteViajesUsuario", "{1EC3F550-2B8F-49A7-B35E-3F93D5DC26F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReporteFinancieroBus", "ReporteFinancieroBus\ReporteFinancieroBus.csproj", "{27B7DD94-C2AF-464C-A949-12D280D12A25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReporteDeMarcas", "ReporteDeMarcas\ReporteDeMarcas.csproj", "{A37AA427-40EA-40F4-BA1D-D7AF5608A071}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultaAppMovil", "ConsultaAppMovil\ConsultaAppMovil.csproj", "{919B1522-61BD-4CEE-8BED-E6B4F009DC89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +27,26 @@ Global
 		{8AE85224-0DE0-4655-AF12-238ACD390C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AE85224-0DE0-4655-AF12-238ACD390C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AE85224-0DE0-4655-AF12-238ACD390C26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27B7DD94-C2AF-464C-A949-12D280D12A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27B7DD94-C2AF-464C-A949-12D280D12A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27B7DD94-C2AF-464C-A949-12D280D12A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27B7DD94-C2AF-464C-A949-12D280D12A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A37AA427-40EA-40F4-BA1D-D7AF5608A071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37AA427-40EA-40F4-BA1D-D7AF5608A071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37AA427-40EA-40F4-BA1D-D7AF5608A071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37AA427-40EA-40F4-BA1D-D7AF5608A071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{919B1522-61BD-4CEE-8BED-E6B4F009DC89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{919B1522-61BD-4CEE-8BED-E6B4F009DC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{919B1522-61BD-4CEE-8BED-E6B4F009DC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{919B1522-61BD-4CEE-8BED-E6B4F009DC89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27B7DD94-C2AF-464C-A949-12D280D12A25} = {C9B594F2-09AD-4D1F-89FB-13AD00C9E2EB}
+		{A37AA427-40EA-40F4-BA1D-D7AF5608A071} = {DF4CB9A0-6347-42A0-B9AD-93DEB815E855}
+		{919B1522-61BD-4CEE-8BED-E6B4F009DC89} = {1EC3F550-2B8F-49A7-B35E-3F93D5DC26F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23F6B8D6-773A-449A-890C-51C744799674}
